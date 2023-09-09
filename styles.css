@@ -4,11 +4,11 @@ body{
 }
 
 #image{
-    width: 80%;
+    width: 50%;
     height: auto;
     margin: auto;
-    max-width: 850px;
-
+    max-width: 100%;
+    display: block;
     padding: 20px;
 }
 #title{
@@ -17,11 +17,11 @@ body{
 }
 
 #img-div{
-    background-color:#eeeeee;;
+    background-color:#eeeeee;
     text-align: center;
-    padding: 0.5em;
-    margin: 0.5em;
-    max-width: width 1400px; 
+    padding: 0px;
+    margin: 20px auto;
+    max-width: 100%;
     align-items: center;
 }
 
@@ -41,6 +41,11 @@ body{
 #tribute-info >ul{
     display: inline-block;
     color: #ffffff;
+ 
+}
+
+#tribute-info >ul >li{
+    padding: 5px;
 }
 
 #tribute-link {
