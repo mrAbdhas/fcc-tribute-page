@@ -1,7 +1,51 @@
-#image{
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: auto;
+body{
+    background-color:#0a0a23;;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+#image{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    max-width: 850px;
+
+    padding: 20px;
+}
+#title{
+    text-align: center;
+    color: #ffffff;
+}
+
+#img-div{
+    background-color:#eeeeee;;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.5em;
+    max-width: width 1400px; 
+    align-items: center;
+}
+
+
+#img-caption{
+
+    color:rgb(0, 0, 0);
+    border:1px solid black;
+    border:none;
+
+}
+
+#tribute-info { 
+    text-align: center;
+}
+
+#tribute-info >ul{
+    display: inline-block;
+    color: #ffffff;
+}
+
+#tribute-link {
+    text-align: center;
+    color: #ffffff;
+    display: block;
+    
+}
